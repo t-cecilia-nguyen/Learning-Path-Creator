@@ -1,0 +1,25 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#card-hover {
+    transition: transform 0.5s ease;
+}
+
+#card-hover:hover {
+    transition: transform 0.5s ease;
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-weight: bold !important; 
+}
+
+.page-footer {
+    width: 100%;
+}
+
+ul {
+    display: flex !important;
+    justify-content: space-between !important;
+}
